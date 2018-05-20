@@ -23,7 +23,7 @@ class Song
     @@artists.uniq
   end
   
-  def self.assert_generates
+  def self.genres
     @@genres.uniq
   end
   
