@@ -20,11 +20,11 @@ class Song
   end 
   
   def self.artists
-    @@count.select {|song| song.artist}
+    @@artists.select {|artist| song.artist}
   end
   
   def self.assert_generates
-    @@count.select {|song| song.genres}
+    @@genres.select {|song| song.genres}
   end
 
 end 
