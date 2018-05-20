@@ -20,7 +20,7 @@ class Song
   end 
   
   def self.artists
-    @@artists.select {|artist| song.artist}
+    @@artists
   end
   
   def self.assert_generates
