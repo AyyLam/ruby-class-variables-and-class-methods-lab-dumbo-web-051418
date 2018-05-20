@@ -24,8 +24,14 @@ class Song
   end
   
   def self.assert_generates
-    @@genres.select {|song| song.genres}
+    @@genres
   end
+  
+  def self.genre_count
+    
+  
+  
+  
 
 end 
   
